@@ -5,4 +5,4 @@
 
 | Note | Description | Commentaire |
 | --- | --- | --- |
-| Configuration du repo GitHub | [GitHub Repo] |
+| Configuration du repo GitHub | [GitHub Repo](https://github.com/MarakiAbiy/Livrable1Maraki) |
