@@ -108,3 +108,15 @@ FROM athlete;
 | 1.0 | SQL "seed"/ exemples pour les informations requises | --- |
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) | [Voir les commits dans GitHub](https://github.com/MarakiAbiy/Livrable1Maraki/commits/master) |
 | / 10 | --- |
+
+## Modèle Entité-Relationel
+
+J'ai créer le nouveau Modèle ER avec [Lucidchart](/lucidCharts.md) pour representer les modifications.
+
+![Modèle ER](docs_liv2/ModelER.png)
+
+## Modèle relationnel
+
+J'ai aussi créer le  nouveau Modèle Relationnel avec [Lucidchart](/lucidCharts.md) pour representer les modifications..
+
+![Modèle relationnel](docs_liv2/ModelRelationnel.png)
