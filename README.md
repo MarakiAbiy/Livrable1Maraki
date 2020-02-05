@@ -95,4 +95,16 @@ La base de données est vide.
 ```sql
 SELECT count(*)
 FROM athlete;
-``
+```
+
+## Livrable 2 (%5) Application et Base de Données
+
+| Note | Description | Commentaire |
+| --- | --- | --- |
+| Configuration du repo GitHub | [GitHub Repo](https://github.com/MarakiAbiy/Livrable1Maraki) |
+| 3.0 | Modèle ER | Voir ci-dessous |
+| 3.0 | Modèle relationnel / schéma SQL | Les images et SQL ci-dessous |
+| 1.0 | Application (READ-ONLY) | --- |
+| 1.0 | SQL "seed"/ exemples pour les informations requises | --- |
+| 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) | [Voir les commits dans GitHub](https://github.com/MarakiAbiy/Livrable1Maraki/commits/master) |
+| / 10 | --- |
