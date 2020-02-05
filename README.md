@@ -34,9 +34,9 @@ J'ai aussi créer le Modèle Relationnel avec [Lucidchart](//lucidCharts.md).
 Le schéma SQL est créer [Online SQL Interpreter](https://www.db-book.com/db7/university-lab-dir/sqljs.html).
 
 ```sql
-CREATE TABLE athlète (
+CREATE TABLE athlete (
   nom varchar(),
-  prénom varchar(),
+  prenom varchar(),
   id varchar(),
   dateDeNaissance numeric(),
   sexe varchar(),
@@ -51,7 +51,7 @@ CREATE TABLE athlète (
 
 ```sql
 
-INSERT INTO athlète (nom, prénom, id, dateDeNaissance, sexe)
+INSERT INTO athlete (nom, prenom, id, dateDeNaissance, sexe)
 VALUES
 ('Smith', 'John', 1, '1993-01-15', 'm'),
 ('White', 'Snow', 2, '1980-08-03', 'f'),
@@ -64,14 +64,14 @@ Sélectionnons tous les athlètes «F».
 
 ```sql
 SELECT *
-FROM athlète
+FROM athlete
 WHERE sexe = 'F';
 ```
 
 Changeons tous les athlètes «m» à «M».
 
 ```sql
-UPDATE athlète
+UPDATE athlete
 SET sexe = 'M'
 WHERE sexe = 'm';
 ```
@@ -80,19 +80,19 @@ Sélectionnons tous les athlètes «M».
 
 ```sql
 SELECT *
-FROM athlète
+FROM athlete
 WHERE sexe = 'M';
 ```
 
 Supprimons tous les athlètes.
 
 ```sql
-DELETE FROM athlète;
+DELETE FROM athlete;
 ```
 
 La base de données est vide.
 
 ```sql
 SELECT count(*)
-FROM athlète;
+FROM athlete;
 ``
