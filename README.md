@@ -120,3 +120,11 @@ J'ai créer le nouveau Modèle ER avec [Lucidchart](/lucidCharts.md) pour repres
 J'ai aussi créer le  nouveau Modèle Relationnel avec [Lucidchart](/lucidCharts.md) pour representer les modifications..
 
 ![Modèle relationnel](docs_liv2/ModelRelationnel.png)
+
+## Modèle sql
+
+Le nouveau schema est ici [Schéma SQL](/db/schema.sql)
+
+## Exemples de requêtes SQL
+
+Les exemples se trouvent dans [le seed](/db/seed.sql)
