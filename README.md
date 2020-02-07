@@ -125,6 +125,11 @@ J'ai aussi créer le  nouveau Modèle Relationnel avec [Lucidchart](/lucidCharts
 
 Le nouveau schema est ici [Schéma SQL](/db/schema.sql)
 
+## Execution des  migrations sql
+
+D'après le nouvel énoncé du livrable 2, j'ai du modifier les modèles en diagrammes et le schema sql pour convenir les instruction. Il fallait donc une creation d'une table 'competion' qui correspond à [Migartion Compétition](/db/migrations/20200206081700-create-competition.sql)et une autre appelée 'participe' qui correspond à [Migartion Participe](/db/migrations/20200206081900-create-participe.sql) et représente la relation entre les athlètes et les compétitions.
+Le schéma final se retrouve donc dans le dossier 'base de données' et il correspond à la somme de tous les migrations qui se trouvent également dans le dossier [Migrations](/db/migrations).
+
 ## Exemples de requêtes SQL
 
 Les exemples se trouvent dans [le seed](/db/seed.sql)
