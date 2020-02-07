@@ -105,7 +105,7 @@ FROM athlete;
 | 3.0 | Modèle ER | Voir ci-dessous |
 | 3.0 | Modèle relationnel / schéma SQL | Les images et SQL ci-dessous |
 | 1.0 | Application (READ-ONLY) | --- |
-| 1.0 | SQL "seed"/ exemples pour les informations requises | --- |
+| 1.0 | SQL "seed"/ exemples pour les informations requises | Voir ci-dessous |
 | 1.0 | Utilisation de git (messages de commit, tous les étudiants impliqués) | [Voir les commits dans GitHub](https://github.com/MarakiAbiy/Livrable1Maraki/commits/master) |
 | / 10 | --- |
 
@@ -127,7 +127,7 @@ Le nouveau schema est ici [Schéma SQL](/db/schema.sql)
 
 ## Execution des  migrations sql
 
-D'après le nouvel énoncé du livrable 2, j'ai du modifier les modèles en diagrammes et le schema sql pour convenir les instruction. Il fallait donc une creation d'une table 'competion' qui correspond à [Migartion Compétition](/db/migrations/20200206081700-create-competition.sql)et une autre appelée 'participe' qui correspond à [Migartion Participe](/db/migrations/20200206081900-create-participe.sql) et représente la relation entre les athlètes et les compétitions.
+D'après le nouvel énoncé du livrable 2, j'ai du modifier les modèles en diagrammes et le schema sql pour convenir les instruction. Il fallait donc une creation d'une table 'competion' qui correspond à [Migartion Compétition](/db/migrations/20200206081700-create-competition.sql) et une autre appelée 'participe' qui correspond à [Migartion Participe](/db/migrations/20200206081900-create-participe.sql) et représente la relation entre les athlètes et les compétitions.
 Le schéma final se retrouve donc dans le dossier 'base de données' et il correspond à la somme de tous les migrations qui se trouvent également dans le dossier [Migrations](/db/migrations).
 
 ## Exemples de requêtes SQL
