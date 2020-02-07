@@ -1,0 +1,20 @@
+CREATE TABLE athlete (
+  nom varchar(),
+  prenom varchar(),
+  id varchar(),
+  dateDeNaissance numeric(),
+  sexe varchar(),
+
+  PRIMARY KEY (id)
+);
+
+CREATE SEQUENCE actions_id_seq
+  START WITH 1
+  INCREMENT BY 1
+  NO MINVALUE
+  NO MAXVALUE
+  CACHE 1;
+
+INSERT INTO schema_migrations (migration, migrated_at)
+VALUES ('20200202110200-create-actions.sql',
+        NOW()::timestamp);
